@@ -3,3 +3,8 @@
 	url = https://github.com/OpenNeuroDatasets/ds001499.git
 	datalad-id = 3e874376-b053-11e8-b9ac-0242ac130026
 	datalad-url = https://github.com/OpenNeuroDatasets/ds001499.git
+[submodule "machinelearning-books"]
+	path = machinelearning-books
+	url = https://github.com/datalad-datasets/machinelearning-books.git
+	datalad-id = 780e73c0-88ff-11e8-98cc-f0d5bf7b5561
+	datalad-url = https://github.com/datalad-datasets/machinelearning-books.git
