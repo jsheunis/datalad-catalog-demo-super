@@ -18,3 +18,8 @@
 	url = https://gin.g-node.org/msz/AIDAqc_test_data
 	datalad-id = ae810773-9b69-4c69-a058-f8a9065897b9
 	datalad-url = https://gin.g-node.org/msz/AIDAqc_test_data
+[submodule "studyforrest-data"]
+	path = studyforrest-data
+	url = https://github.com/jsheunis/studyforrest-data
+	datalad-id = deabeb9b-7a37-4062-a1e0-8fcef7909609
+	datalad-url = https://github.com/jsheunis/studyforrest-data
