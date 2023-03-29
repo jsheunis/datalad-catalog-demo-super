@@ -1,25 +1,20 @@
-[submodule "ds001499"]
-	path = ds001499
-	url = https://github.com/OpenNeuroDatasets/ds001499.git
-	datalad-id = 3e874376-b053-11e8-b9ac-0242ac130026
-	datalad-url = https://github.com/OpenNeuroDatasets/ds001499.git
-[submodule "machinelearning-books"]
-	path = machinelearning-books
-	url = https://github.com/datalad-datasets/machinelearning-books.git
-	datalad-id = 780e73c0-88ff-11e8-98cc-f0d5bf7b5561
-	datalad-url = https://github.com/datalad-datasets/machinelearning-books.git
-[submodule "human-connectome-project-openaccess"]
-	path = human-connectome-project-openaccess
-	url = https://github.com/datalad-datasets/human-connectome-project-openaccess.git
-	datalad-id = 2e2a8a70-3eaa-11ea-a9a5-b4969157768c
-	datalad-url = https://github.com/datalad-datasets/human-connectome-project-openaccess.git
-[submodule "AIDAqc_test_data"]
-	path = AIDAqc_test_data
+[submodule "data/AIDAqc_test_data"]
+	path = data/AIDAqc_test_data
 	url = https://gin.g-node.org/msz/AIDAqc_test_data
 	datalad-id = ae810773-9b69-4c69-a058-f8a9065897b9
-	datalad-url = https://gin.g-node.org/msz/AIDAqc_test_data
-[submodule "studyforrest-data"]
-	path = studyforrest-data
+[submodule "data/ds001499"]
+	path = data/ds001499
+	url = https://github.com/OpenNeuroDatasets/ds001499.git
+	datalad-id = 3e874376-b053-11e8-b9ac-0242ac130026
+[submodule "data/human-connectome-project-openaccess"]
+	path = data/human-connectome-project-openaccess
+	url = https://github.com/datalad-datasets/human-connectome-project-openaccess.git
+	datalad-id = 2e2a8a70-3eaa-11ea-a9a5-b4969157768c
+[submodule "data/machinelearning-books"]
+	path = data/machinelearning-books
+	url = https://github.com/datalad-datasets/machinelearning-books.git
+	datalad-id = 780e73c0-88ff-11e8-98cc-f0d5bf7b5561
+[submodule "data/studyforrest-data"]
+	path = data/studyforrest-data
 	url = https://github.com/jsheunis/studyforrest-data
 	datalad-id = deabeb9b-7a37-4062-a1e0-8fcef7909609
-	datalad-url = https://github.com/jsheunis/studyforrest-data
