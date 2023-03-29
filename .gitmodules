@@ -8,3 +8,8 @@
 	url = https://github.com/datalad-datasets/machinelearning-books.git
 	datalad-id = 780e73c0-88ff-11e8-98cc-f0d5bf7b5561
 	datalad-url = https://github.com/datalad-datasets/machinelearning-books.git
+[submodule "human-connectome-project-openaccess"]
+	path = human-connectome-project-openaccess
+	url = https://github.com/datalad-datasets/human-connectome-project-openaccess.git
+	datalad-id = 2e2a8a70-3eaa-11ea-a9a5-b4969157768c
+	datalad-url = https://github.com/datalad-datasets/human-connectome-project-openaccess.git
