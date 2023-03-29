@@ -2,4 +2,3 @@ datalad
 datalad-metalad
 datalad-catalog
 datalad-neuroimaging
-git+https://github.com/mslw/datalad-wackyextra.git
