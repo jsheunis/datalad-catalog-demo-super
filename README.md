@@ -21,7 +21,19 @@ Such provenance records are easily re-executable, meaning that with the required
 software tools installed or with a containerized workflow, anyone should be able
 to reproduce the same outcome.
 
-Browse the catalog and its datasets to explore its functionality: _link_
+Browse the catalog and its datasets to explore its functionality:
+[https://jsheunis.github.io/datalad-catalog-demo](https://jsheunis.github.io/datalad-catalog-demo)
 
 ## DIY cataloging
 
+Until a better description arrives, follow the steps in [`code/generate_catalog.sh`](code/generate_catalog.sh) to re-create the catalog from scratch.
+
+## TODO:
+
+- update `requirements.txt` to add specific commits for git repos
+- capture the execution steps for reproducibility with `datalad run`
+- add more subdatasets to showcase additional extractors
+    - ris/bib files with https://github.com/mslw/datalad-wackyextra
+    - singularity images with `datalad-container` 
+    - datalad runrecords (on superdataset) with `datalad-metalad`
+- address https://github.com/datalad/datalad-metalad/issues/373 for more convenience when generating catalog dataset names 
