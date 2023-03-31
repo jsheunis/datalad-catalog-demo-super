@@ -1,8 +1,9 @@
 #!/bin/zsh
 
-# Run these steps from the command line in order:
+# To recreate the catalog from scratch, run these steps from the command line in order:
 
 # 0: prep
+git clone https://github.com/jsheunis/datalad-catalog-demo-super.git
 cd datalad-catalog-demo-super
 chmod -R u+rwx code/*
 
@@ -29,4 +30,17 @@ datalad -f json catalog translate outputs/file_metadata_transformed.jsonl > outp
 # 6: transform into something that can be added to the catalog
 python code/transform_translated_metadata.py outputs/dataset_metadata_translated.jsonl outputs/dataset_metadata_for_catalog.jsonl
 python code/transform_translated_metadata.py outputs/file_metadata_translated.jsonl outputs/file_metadata_for_catalog.jsonl
+
+# 7: create catalog
+datalad catalog create -c ../datalad-catalog-demo -y inputs/catalog_config.json
+
+# 8: add metadata to catalog
+datalad catalog add -c ../datalad-catalog-demo -m outputs/dataset_metadata_for_catalog.jsonl
+datalad catalog add -c ../datalad-catalog-demo -m outputs/file_metadata_for_catalog.jsonl
+
+# 9: set catalog homepage (id and version should be latest of superdataset, might differ from below)
+datalad catalog set-super -c ../datalad-catalog-demo -i ff750e89-09bf-48cc-b21c-fe94f071da00 -v 75ce5bfa9380ff05a2046473cfa292f98f754596
+
+# 10: test catalog locally
+datalad catalog serve -c ../datalad-catalog-demo
 
